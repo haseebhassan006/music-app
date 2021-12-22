@@ -1,0 +1,3 @@
+<?php if(\App\Models\Role::getValue($permission)): ?>
+    <a class="collapse-item <?php if(Request::route()->getName() == $route): ?> active <?php endif; ?>" href="<?php echo e(route($route)); ?>"><i class="fas <?php echo e($icon); ?>"></i> <span><?php echo e($name); ?></span></a>
+<?php endif; ?><?php /**PATH D:\ali-shiwani\laragon\www\live-streaming\resources\views/backend/commons/sidebar-sub-menu.blade.php ENDPATH**/ ?>

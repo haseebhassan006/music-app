@@ -1,0 +1,547 @@
+/**********My Style************/
+
+body{
+    background: #191819;
+    overflow-x: hidden;
+}
+
+header {
+    padding: 10px 0;
+}
+
+.start-section {
+    background: url(../img/bg.jpg);
+    padding-top: 55px;
+    margin-top: -50px;
+    background-size: cover;
+    background-position: center;
+}
+.side-bar ul::before {
+    position: fixed;
+    content: '';
+    left: 0px;
+    top: 49px;
+    height: 100%;
+    background: rgba(0,0,0,0.48);
+    width: 45px;
+    border-top-left-radius: 10px;
+    z-index: -8;
+}
+
+.custom-header {
+    display: none;
+}
+
+
+.col-md-15 {
+    max-width: 13% !important;
+}
+
+.btm-side-bar button:focus {
+    outline: none;
+}
+
+.btm-side-bar button:hover{
+    background:#934af1;;
+}
+
+.scrh-bar input {
+    border: none;
+    width: 60%;
+    background: transparent;
+    color: #fff;
+    font-family: 'Roboto Mono';
+    font-size: 14px;
+}
+
+.scrh-bar input:focus-visible {
+    outline: none;
+}
+
+.scrh-bar input::placeholder {
+    color: #fff;
+}
+
+.side-bar ul li {
+    color: #fff;
+    list-style: none;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    line-height: 26px;
+}
+.side-bar ul li a{
+     color: #fff;
+     text-decoration: none;
+}
+
+.overling-sec {
+    background: #00000094;
+    border-top-left-radius: 10px;
+}
+
+.side-bar ul {
+    padding-top: 10px;
+    padding-left: 35px;
+}
+
+
+.overling-sec .nvi {
+    border-right: 1px #ffffff85 solid;
+}
+
+.side-bar ul li:nth-child(1):before ,
+.side-bar ul li:nth-child(2):before,
+.side-bar ul li:nth-child(3):before,
+.side-bar ul li:nth-child(4):before,
+.side-bar ul li:nth-child(5):before,
+.side-bar ul li:nth-child(6):before,
+.side-bar ul li:nth-child(7):before,
+.side-bar ul li:nth-child(8):before,
+.side-bar ul li:nth-child(9):before,
+.side-bar ul li:nth-child(10):before{
+    content: ' ';
+    width: 18px;
+    height: 20px;
+    position: absolute;
+    z-index: 999;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.side-bar ul li:nth-child(1):before {
+    left: 11%;
+    top: 15px;
+    background-image: url(../img/icons/icon-01.svg);
+
+}
+
+.side-bar ul li:nth-child(2):before {
+    left: 16px;
+    top: 45px;
+    background-image: url(../img/icons/icon-02.svg);
+    width: 22px;
+}
+
+.side-bar ul li:nth-child(3):before {
+    left: 17px;
+    top: 67px;
+    background-image: url(../img/icons/icon-03.svg);
+}
+
+.side-bar ul li:nth-child(4):before {
+    left: 17px;
+    top: 93px;
+    content: ' ';
+    background-image: url(../img/icons/icon-04.svg);
+}
+
+.side-bar ul li:nth-child(5):before {
+    left: 17px;
+    top: 122px;
+    content: ' ';
+    background-image: url(../img/icons/icon-05.svg);
+}
+
+.side-bar ul li:nth-child(6):before {
+    left: 17px;
+    top: 148px;
+    content: ' ';
+    background-image: url(../img/icons/icon-06.svg);
+}
+
+
+.side-bar ul li:nth-child(7):before {
+    left: 17px;
+    top: 166px;
+    content: ' ';
+    background-image: url(../img/icons/icon-07.svg);
+}
+
+
+.side-bar ul li:nth-child(8):before {
+    left: 17px;
+    top: 199px;
+    content: ' ';
+    background-image: url(../img/icons/icon-08.svg);
+}
+
+
+.side-bar ul li:nth-child(9):before {
+    left: 17px;
+    top: 220px;
+    content: ' ';
+    background-image: url(../img/icons/icon-09.svg);
+}
+
+
+.side-bar ul li:nth-child(10):before {
+    left: 17px;
+    top: 250px;
+    content: ' ';
+    background-image: url(../img/icons/icon-10.svg);
+}
+
+.side-bar {
+    padding-bottom: 55%;
+}
+
+
+.starting-head h4 {
+    color: #fff;
+    font-family: 'Pridi';
+    font-size: 14px;
+    padding-top: 20px;
+    font-weight: 100;
+}
+
+.starting-head h2 {
+    font-size: 42px;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+
+.starting-head p {
+    font-size: 11px;
+    color: #b9b9b9;
+    font-family: 'Montserrat';
+    font-weight: 100;
+}
+
+.listing ul {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    padding-top: 22px;
+}
+
+.trd-lin img {
+    margin-right: 3px;
+}
+
+.trd-lin h6 {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    margin-bottom: 0;
+    letter-spacing: 1.3px;
+}
+
+.trd-lin p {
+    color: #fff;
+    font-family: 'Roboto Mono';
+    font-size: 11px;
+    margin-bottom: 0;
+}
+
+.trd-lintd td {
+    display: flex;
+    flex-direction: row;
+}
+
+td.tim {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font-size: 12px;
+    right: 672px;
+    font-family: 'Arimo';
+    width: 17%;
+}
+
+.swiper-slide a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.swiper-slide .fa, .trd-bg table .fa {
+    padding: 6px 7px 6px 10px;
+    font-size: 10px;
+    background: #00000069;
+    border-radius: 12px;
+    margin-right: 4px;
+    margin-left: 2px;
+}
+
+.btm-line {
+    border-bottom: 1px #ffffff80 solid;
+    padding-bottom: 10px;
+}
+
+.trd h2, .titl h2 {
+    font-family: 'Trocchi';
+    color: #fff;
+    font-size: 8.8px;
+    border-bottom: 1px #fff solid;
+    width: 20%;
+    padding: 10px 0;
+}
+
+.titl h2{
+    padding: 10px 13px; 
+    width: 11%;
+    margin-bottom: 10px;
+}
+.trd {
+    color: #fff;
+    font-family: 'Trocchi';
+    font-size: 14px;
+}
+.trd-bg {
+    background: #00000069;
+    padding: 10px !important;
+    font-size: 11px;
+}
+
+.trd-bg table {
+    width: 100%;
+}
+
+.trd-bg table tr {
+    border-bottom: 1px #ffffff85 solid;
+}
+
+.trd-bg table img {
+    padding-bottom: 5px;
+}
+
+.trd-bg td:nth-child(1) {
+    width: 12%;
+}
+.trd-bg td:nth-child(2) {
+    width: 16%;
+}
+
+.trd-bg td:nth-child(3) {
+    width: 50%;
+}
+
+.play-slider {
+    background: #000;
+    padding: 11px 2px;
+}
+
+.sldr-btm {
+    padding: 20px 20px 50px;
+    background: #191819;
+    margin:0 -15px -2px;
+    height: 100%;
+}
+
+.sldr-btm table {
+    background: #020202;
+    width: 110%;
+}
+.btm-side-bar .col-md-4 {
+    padding: 3px;
+}
+
+.btm-side-bar .col-md-4 > img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.btm-side-bar {
+    text-align: center;
+    background: #000;
+    padding: 5px 0 120px 0;
+    margin: 0 -15px;
+}
+
+.btm-side-bar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.btm-side-bar button {
+    background: #6f00ff;
+    color: #fff;
+    border: none;
+    padding: 7px 20px;
+    margin-bottom: 11px;
+    border-radius: 5px;
+    transition:0.85s;
+    font-size: 12px;
+
+}
+
+.btm-side-bar p img {
+    width: 10%;
+    margin-top: 20px;
+}
+
+.overling-sec .nvi {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: fixed;
+}
+
+.right-sec {
+    margin-left: 13%;
+    width: 100%;
+}
+
+.col-md-30 {
+    max-width: 87%;
+}
+
+
+ul {
+}
+.additional ul {
+    color: #fff;
+    list-style: none;
+    display: flex;
+    font-size: 11px;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+    margin-top: -25px;
+    padding: 0 4px;
+}
+
+.additional i {
+    background: #4d00b0 !important;
+    margin-left: -1px !important;
+    font-size: 7px !important;
+    padding: 6px 6px 6px 8px !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 1.5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+@media screen and (max-width: 1024px) {
+.btm-side-bar button{
+    font-size: 12px;
+}
+    
+}
+
+@media screen and (max-width: 768px) {
+
+.btm-side-bar button {
+    font-size: 9px;
+    padding: 3px 8px;
+}
+
+.col-md-15 {
+    max-width: 18% !important;
+}
+
+.col-md-30 {
+    max-width: 82%;
+}
+
+.additional {
+    width: 40%;
+}
+
+.right-sec {
+    margin-left: 18%;
+    
+}
+    
+.btm-side-bar a{
+      font-size: 10px;
+}
+
+.titl h2{
+    width:25%;
+}
+
+.sslidinz{
+        width: 40%;
+}
+
+.slidinz {
+    width: 20%;
+}
+
+.trd-bg {
+    font-size: 9px;
+}
+.starting-head h2 {
+    font-size: 30px;
+}
+
+.listing ul{
+    font-size: 11px;
+}
+}
+
+
+@media screen and (max-width: 480px) {
+    
+.custom-header {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    
+}
+
+.slidinze{
+        width: 40%;
+}
+
+ .slidinz {
+    width: 20%;
+}
+
+.trd-bg {
+    font-size: 9px;
+}
+.starting-head h2 {
+    font-size: 30px;
+}
+
+.listing ul{
+    font-size: 11px;
+}
+
+
+
+.right-sec {
+    margin-left: 0%;
+}
+
+.nvi {
+    display: none !important;
+}
+
+.right-sec .mx-3.trd {
+    padding: 0;
+}
+
+.titl h2 {
+    width: 40%;
+}
+
+.start-section{
+        margin-top: -70px;
+}
+
+.overling-sec {
+    margin-top: 14px;
+}
+}

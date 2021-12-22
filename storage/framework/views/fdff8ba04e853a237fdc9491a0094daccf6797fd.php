@@ -1,0 +1,2 @@
+
+<?php echo $__env->make('index_latest', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH D:\ali-shiwani\laragon\www\live-streaming\resources\views\frontend\default/homepage/index_new.blade.php ENDPATH**/ ?>
