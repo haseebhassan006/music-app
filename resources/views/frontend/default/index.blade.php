@@ -32,8 +32,8 @@
     <link rel="stylesheet" href="{{ asset('skins/default/css/loading.css?version=' . env('APP_VERSION')) }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('skins/default/css/theme.css?version=' . env('APP_VERSION')) }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('skins/default/css/custom.css?version=' . env('APP_VERSION')) }}" type="text/css">
-    <link rel="stylesheet" href="{{asset('frontend/css/style.css?version=' . env('APP_VERSION'))  }}">
-    <link rel="stylesheet"  href="{{asset('skin/default/css/swiper-bundle.min.css')}}"/>
+    <link rel="stylesheet" href="{{asset('skins/default/css/style.css?version=' . env('APP_VERSION'))  }}">
+    <link rel="stylesheet"  href="{{asset('skin/default/css/swiper-bundle.min.css?version=' . env('APP_VERSION'))}}" >
     @if(config('settings.captcha'))https
         <meta name="recaptcha-key" content="{{ config('settings.recaptcha_public_key') }}" />
         <script src="https://www.google.com/recaptcha/api.js?render={{ config('settings.recaptcha_public_key') }}"></script>
@@ -599,7 +599,7 @@
 <script src="{{ asset('js/cart.js?version=' . env('APP_VERSION')) }}" type="text/javascript"></script>
 <script src="{{ asset('skins/default/js/custom.js?version=' . env('APP_VERSION')) }}" type="text/javascript"></script>
 <script src="{{ asset('embed/embed.js?skin=embedplayer10&icon_set=radius&version=' . env('APP_VERSION')) }}" type="text/javascript"></script>
-<script src="{{asset('frontend/js/swiper-bundle.min.js')}}"></script>
+<script src="{{asset('skins/default/js/swiper-bundle.min.js?version=' . env('APP_VERSION'))}}"></script>
 @if(config('settings.analytic_tracking_code'))
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

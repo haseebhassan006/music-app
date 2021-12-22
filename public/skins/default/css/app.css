@@ -15317,6 +15317,11 @@ a.btn.btn-secondary.btn-icon-only.btn-favorite {}
     overflow: hidden;
 }
 
+.img-fluid {
+    width: 100px;
+    margin-right: 20px;
+}
+
 aside ul::before {
     position: fixed;
     content: '';
@@ -17020,14 +17025,16 @@ input:checked+.slider:before {
     border-radius: 50%;
 }
 
-
-.container-fluid {
+.sldr{
+    overflow-x: hidden;
+}
+/* .container-fluid {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-}
+} */
 
 aside {
     display: block;

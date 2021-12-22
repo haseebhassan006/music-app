@@ -37,14 +37,14 @@
 
     <div id="page-content">
         @if(isset($home->recentListens) && count($home->recentListens))
-             @include('commons.song-new', ['songs' => $home->recentListens, 'element' => 'carousel'])
+            @include('commons.song-new', ['songs' => $home->recentListens, 'element' => 'carousel'])
         @endif
         {{-- @dd($home->popularSongs) --}}
         @if(isset($home->popularSongs) && count($home->popularSongs))
-{{-- @include('commons.songs-trending', ['songs' => $home->popularSongs, 'element' => 'carousel'])--}}
+            @include('commons.songs-trending', ['songs' => $home->popularSongs, 'element' => 'carousel'])
         @endif 
         <div class="container-fluid" style="background-color:#000;">
-            {{-- @include('commons.channel-new', ['channels' => $home->channels]) --}}
+             @include('commons.channel-new', ['channels' => $home->channels]) 
         </div>
     </div>
     {!! Advert::get('footer') !!}

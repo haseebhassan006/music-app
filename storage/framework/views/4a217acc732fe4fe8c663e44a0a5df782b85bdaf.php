@@ -37,14 +37,14 @@
 
     <div id="page-content">
         <?php if(isset($home->recentListens) && count($home->recentListens)): ?>
-             <?php echo $__env->make('commons.song-new', ['songs' => $home->recentListens, 'element' => 'carousel'], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+            <?php echo $__env->make('commons.song-new', ['songs' => $home->recentListens, 'element' => 'carousel'], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
         <?php endif; ?>
         
         <?php if(isset($home->popularSongs) && count($home->popularSongs)): ?>
-
+            <?php echo $__env->make('commons.songs-trending', ['songs' => $home->popularSongs, 'element' => 'carousel'], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
         <?php endif; ?> 
         <div class="container-fluid" style="background-color:#000;">
-            
+             <?php echo $__env->make('commons.channel-new', ['channels' => $home->channels], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?> 
         </div>
     </div>
     <?php echo Advert::get('footer'); ?>
